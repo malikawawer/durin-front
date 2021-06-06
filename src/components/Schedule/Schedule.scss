@@ -1,0 +1,97 @@
+$base-color: #f2f2f2;
+
+.schedule-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  font-family: "Nunito" sans-serif;
+  margin: 1em 0;
+}
+
+.days {
+  display: flex;
+  justify-content: space-around;
+  height: 15%;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.day {
+  height: 100%;
+  width: calc((100% / 5));
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px;
+
+  border-radius: 9px;
+  background-color: #ffffff;
+  border: none;
+  box-shadow: -4px 8px 19px rgb(179 179 179 / 20%);
+
+  &:hover {
+    background-color: #e0e0e0;
+    box-shadow: -4px 8px 19px rgb(179 179 179 / 17%);
+    cursor: pointer;
+    -webkit-transition: all 0.1s 0s ease;
+    -moz-transition: all 0.1s 0s ease;
+    -o-transition: all 0.1s 0s ease;
+    transition: all 0.1s 0s ease;
+  }
+
+  &:active {
+    transform: scale(1.1);
+  }
+}
+
+.day span {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.schedule {
+  margin: 2em 1.2em;
+  display: flex;
+
+  .hours-container {
+    height: 100%;
+    width: 60px;
+    top: -1.2%;
+    position: relative;
+  }
+
+  .hour {
+    height: calc(100% / 13);
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .activity-container {
+    height: 100%;
+    position: relative;
+    width: calc(100% - 60px);
+
+    .activities {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+
+      .column {
+        width: calc(100% / 5);
+        height: 100%;
+      }
+    }
+  }
+
+  .activity-field {
+    border-bottom: 1px solid #cccccc;
+
+    &:first-of-type {
+      border-top: 1px solid #cccccc;
+    }
+  }
+}

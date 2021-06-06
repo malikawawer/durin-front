@@ -1,0 +1,663 @@
+{
+  "days": [
+    {
+      "day": "1",
+      "begin": "10:00:00Z",
+      "end": "19:30:00Z",
+      "activities": [
+        {
+          "teacher": {
+            "id": 1558,
+            "degree": "dr",
+            "first_name": "Damian",
+            "last_name": "Rusinek"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18205,
+            "name": "Programowanie aplikacji sieciowych",
+            "groups": 1,
+            "type": { "id": 1, "name": "wykład" }
+          },
+          "start_time": "15:00:00Z",
+          "end_time": "15:45:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 820,
+            "degree": "dr inż.",
+            "first_name": "Tomasz",
+            "last_name": "Żurek"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18208,
+            "name": "Seminarium",
+            "groups": 9,
+            "type": { "id": 5, "name": "seminarium" }
+          },
+          "start_time": "16:00:00Z",
+          "end_time": "17:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 1558,
+            "degree": "dr",
+            "first_name": "Damian",
+            "last_name": "Rusinek"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18208,
+            "name": "Seminarium",
+            "groups": 9,
+            "type": { "id": 5, "name": "seminarium" }
+          },
+          "start_time": "16:00:00Z",
+          "end_time": "17:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 1905,
+            "degree": "dr",
+            "first_name": "Marcin",
+            "last_name": "Denkowski"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18208,
+            "name": "Seminarium",
+            "groups": 9,
+            "type": { "id": 5, "name": "seminarium" }
+          },
+          "start_time": "16:00:00Z",
+          "end_time": "17:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 401,
+            "degree": "dr",
+            "first_name": "Rajmund",
+            "last_name": "Kuduk"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18208,
+            "name": "Seminarium",
+            "groups": 9,
+            "type": { "id": 5, "name": "seminarium" }
+          },
+          "start_time": "16:00:00Z",
+          "end_time": "17:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 245,
+            "degree": "dr hab.",
+            "first_name": "Grzegorz",
+            "last_name": "Wójcik"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18208,
+            "name": "Seminarium",
+            "groups": 9,
+            "type": { "id": 5, "name": "seminarium" }
+          },
+          "start_time": "16:00:00Z",
+          "end_time": "17:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 890,
+            "degree": "dr",
+            "first_name": "Andrzej",
+            "last_name": "Daniluk"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18208,
+            "name": "Seminarium",
+            "groups": 9,
+            "type": { "id": 5, "name": "seminarium" }
+          },
+          "start_time": "16:00:00Z",
+          "end_time": "17:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 3129,
+            "degree": "mgr",
+            "first_name": "Mateusz",
+            "last_name": "Kozłowski"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18306,
+            "name": "PF3 Akceleracja",
+            "groups": 1,
+            "type": { "id": 1, "name": "wykład" }
+          },
+          "start_time": "18:00:00Z",
+          "end_time": "19:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 3129,
+            "degree": "mgr",
+            "first_name": "Mateusz",
+            "last_name": "Kozłowski"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18356,
+            "name": "Programowanie aplikacji sieciowych",
+            "groups": 4,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "13:15:00Z",
+          "end_time": "14:45:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 3129,
+            "degree": "mgr",
+            "first_name": "Mateusz",
+            "last_name": "Kozłowski"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18356,
+            "name": "Programowanie aplikacji sieciowych",
+            "groups": 4,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "11:45:00Z",
+          "end_time": "13:15:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 3129,
+            "degree": "mgr",
+            "first_name": "Mateusz",
+            "last_name": "Kozłowski"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18356,
+            "name": "Programowanie aplikacji sieciowych",
+            "groups": 4,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "10:00:00Z",
+          "end_time": "11:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        }
+      ]
+    },
+    {
+      "day": "2",
+      "begin": "09:00:00Z",
+      "end": "17:15:00Z",
+      "activities": [
+        {
+          "teacher": {
+            "id": 3065,
+            "degree": "mgr inż.",
+            "first_name": "Piotr",
+            "last_name": "Schneider"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18206,
+            "name": "Projekt zespołowy",
+            "groups": 5,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "12:00:00Z",
+          "end_time": "12:45:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 3065,
+            "degree": "mgr inż.",
+            "first_name": "Piotr",
+            "last_name": "Schneider"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18206,
+            "name": "Projekt zespołowy",
+            "groups": 5,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "13:00:00Z",
+          "end_time": "13:45:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 400,
+            "degree": "dr",
+            "first_name": "Michał",
+            "last_name": "Chromiak"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18206,
+            "name": "Projekt zespołowy",
+            "groups": 5,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "15:30:00Z",
+          "end_time": "16:15:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 3065,
+            "degree": "mgr inż.",
+            "first_name": "Piotr",
+            "last_name": "Schneider"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18206,
+            "name": "Projekt zespołowy",
+            "groups": 5,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "14:00:00Z",
+          "end_time": "14:45:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 2730,
+            "degree": "mgr",
+            "first_name": "Bartłomiej",
+            "last_name": "Kotyra"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18206,
+            "name": "Projekt zespołowy",
+            "groups": 5,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "14:00:00Z",
+          "end_time": "14:45:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 2852,
+            "degree": "mgr",
+            "first_name": "Bartłomiej",
+            "last_name": "Bielecki"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18211,
+            "name": "PF2 Zarządzanie projektami informatycznymi",
+            "groups": 2,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "15:00:00Z",
+          "end_time": "17:15:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 2852,
+            "degree": "mgr",
+            "first_name": "Bartłomiej",
+            "last_name": "Bielecki"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18211,
+            "name": "PF2 Zarządzanie projektami informatycznymi",
+            "groups": 2,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "11:30:00Z",
+          "end_time": "13:45:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 3065,
+            "degree": "mgr inż.",
+            "first_name": "Piotr",
+            "last_name": "Schneider"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18338,
+            "name": "PF2 System Linux od podszewki",
+            "groups": 2,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "09:00:00Z",
+          "end_time": "11:15:00Z",
+          "locked_in": false,
+          "locked_out": false
+        }
+      ]
+    },
+    {
+      "day": "3",
+      "begin": "08:15:00Z",
+      "end": "20:30:00Z",
+      "activities": [
+        {
+          "teacher": {
+            "id": 1270,
+            "degree": "dr",
+            "first_name": "Aleksander",
+            "last_name": "Kowalski"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18174,
+            "name": "PF1 Programowanie w NET",
+            "groups": 1,
+            "type": { "id": 1, "name": "wykład" }
+          },
+          "start_time": "11:00:00Z",
+          "end_time": "12:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 3156,
+            "degree": "dr",
+            "first_name": "Andrzej",
+            "last_name": "Bobyk"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18208,
+            "name": "Seminarium",
+            "groups": 9,
+            "type": { "id": 5, "name": "seminarium" }
+          },
+          "start_time": "16:00:00Z",
+          "end_time": "17:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 2852,
+            "degree": "mgr",
+            "first_name": "Bartłomiej",
+            "last_name": "Bielecki"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18209,
+            "name": "PF1 Programowanie w NET",
+            "groups": 3,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "14:00:00Z",
+          "end_time": "15:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 2852,
+            "degree": "mgr",
+            "first_name": "Bartłomiej",
+            "last_name": "Bielecki"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18209,
+            "name": "PF1 Programowanie w NET",
+            "groups": 3,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "15:45:00Z",
+          "end_time": "17:15:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 2852,
+            "degree": "mgr",
+            "first_name": "Bartłomiej",
+            "last_name": "Bielecki"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18209,
+            "name": "PF1 Programowanie w NET",
+            "groups": 3,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "17:30:00Z",
+          "end_time": "19:00:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 717,
+            "degree": "dr hab.",
+            "first_name": "Marek",
+            "last_name": "Góźdź"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18210,
+            "name": "PF2 System Linux od podszewki - DO POŁ. SEM. ",
+            "groups": 1,
+            "type": { "id": 1, "name": "wykład" }
+          },
+          "start_time": "08:15:00Z",
+          "end_time": "09:45:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 129,
+            "degree": "dr",
+            "first_name": "Rafał",
+            "last_name": "Stęgierski"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18307,
+            "name": "PF1 Elementy grafiki i przetwarzania obrazów",
+            "groups": 1,
+            "type": { "id": 1, "name": "wykład" }
+          },
+          "start_time": "19:00:00Z",
+          "end_time": "20:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 2852,
+            "degree": "mgr",
+            "first_name": "Bartłomiej",
+            "last_name": "Bielecki"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18310,
+            "name": "PF2 Zarządzanie projektami informatycznymi",
+            "groups": 1,
+            "type": { "id": 1, "name": "wykład" }
+          },
+          "start_time": "10:00:00Z",
+          "end_time": "10:45:00Z",
+          "locked_in": false,
+          "locked_out": false
+        }
+      ]
+    },
+    {
+      "day": "4",
+      "begin": "08:30:00Z",
+      "end": "20:30:00Z",
+      "activities": [
+        {
+          "teacher": {
+            "id": 1497,
+            "degree": "dr",
+            "first_name": "Aneta",
+            "last_name": "Wróblewska"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18208,
+            "name": "Seminarium",
+            "groups": 9,
+            "type": { "id": 5, "name": "seminarium" }
+          },
+          "start_time": "08:30:00Z",
+          "end_time": "10:00:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 129,
+            "degree": "dr",
+            "first_name": "Rafał",
+            "last_name": "Stęgierski"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18305,
+            "name": "PF3  Robotyka",
+            "groups": 1,
+            "type": { "id": 1, "name": "wykład" }
+          },
+          "start_time": "19:00:00Z",
+          "end_time": "20:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 129,
+            "degree": "dr",
+            "first_name": "Rafał",
+            "last_name": "Stęgierski"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18308,
+            "name": "PF1 Elementy grafiki i przetwarzania obrazów",
+            "groups": 1,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "14:00:00Z",
+          "end_time": "15:30:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 3065,
+            "degree": "mgr inż.",
+            "first_name": "Piotr",
+            "last_name": "Schneider"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18338,
+            "name": "PF2 System Linux od podszewki",
+            "groups": 2,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "09:00:00Z",
+          "end_time": "11:15:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 3218,
+            "degree": "mgr",
+            "first_name": "Dariusz",
+            "last_name": "Głuchowski"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18356,
+            "name": "Programowanie aplikacji sieciowych",
+            "groups": 4,
+            "type": { "id": 2, "name": "laboratorium" }
+          },
+          "start_time": "16:30:00Z",
+          "end_time": "18:00:00Z",
+          "locked_in": false,
+          "locked_out": false
+        },
+        {
+          "teacher": {
+            "id": 376,
+            "degree": "dr",
+            "first_name": "Anna",
+            "last_name": "Sasak-Okoń"
+          },
+          "room": { "id": 364, "name": "tryb zdalny" },
+          "subject": {
+            "id": 18208,
+            "name": "Seminarium",
+            "groups": 9,
+            "type": { "id": 5, "name": "seminarium" }
+          },
+          "start_time": "08:30:00Z",
+          "end_time": "10:00:00Z",
+          "locked_in": false,
+          "locked_out": false
+        }
+      ]
+    },
+    { "day": "5", "begin": null, "end": null, "activities": [] },
+    { "day": "6", "begin": null, "end": null, "activities": [] },
+    { "day": "7", "begin": null, "end": null, "activities": [] }
+  ],
+  "generated": "2021-06-06T13:23:06.261864Z"
+}

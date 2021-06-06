@@ -1,0 +1,24 @@
+$base-color: #f2f2f2;
+
+.screen-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.main {
+  width: 70%;
+}
+
+.logo-wrapper {
+  margin: 2em;
+  height: 2em;
+}
+
+.user-data-wrapper {
+  width: 30%;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  background-color: $base-color;
+}
