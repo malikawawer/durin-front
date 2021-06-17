@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import Logo from "../../assets/durin_logo";
 import { TopBar } from "../../components/TopBar/TopBar";
 import { Schedule } from "../../components/Schedule/Schedule";
+import { UserActivities } from "../../components/UserActivities/UserActivities";
 import "./EnrollScreen.scss";
 
 function EnrollScreen() {
@@ -12,6 +13,7 @@ function EnrollScreen() {
         <Schedule />
       </div>
       <div className="user-data-wrapper">
+        <UserActivities />
         <Logo />
       </div>
     </div>

@@ -2,7 +2,7 @@ import React, { CSSProperties, useState } from "react";
 import "./Schedule.scss";
 import { DaysBar } from "./Days/Days";
 import {
-  getSchedule,
+  GetSchedule,
   Day,
 } from "../../adapters/EnrollScreenAdapters/ScheduleAdapter";
 import CSS from "csstype";
@@ -52,7 +52,7 @@ export function Schedule() {
     const day = event.currentTarget.value as DayName;
     setCurrentDay(day);
     // API call
-    const data = getSchedule();
+    const data = GetSchedule();
   };
 
   return (
@@ -78,8 +78,12 @@ export function Schedule() {
               ></div>
             );
           })}
+
+          <Activities dayData={GetSchedule()[0].activities} />
         </div>
       </div>
     </div>
   );
 }
+
+export {};
