@@ -75,8 +75,6 @@ function getSuccessorData() {}
 
 export function GetSchedule(): Array<Day> {
   // API call
-  // const [currentGroupSize, setCurrentGroupSize] = useEffect(1);
-  // const [currentSuccessor, setCurrentSuccessor] = useEffect(0);
 
   let currentGroupSize = 0;
   let currentSuccessor = 0;
@@ -119,5 +117,7 @@ export function GetSchedule(): Array<Day> {
   });
   return data;
 }
+
+const getScheduleData = () => {};
 
 export {};
