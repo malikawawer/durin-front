@@ -2,7 +2,9 @@ import React, { Component, useState } from "react";
 import Logo from "../../assets/durin_logo";
 import { TopBar } from "../../components/TopBar/TopBar";
 import { Schedule } from "../../components/Schedule/Schedule";
-import { UserActivities } from "../../components/UserActivities/UserActivities";
+import { UserActivities } from "../../components/UserColumn/UserActivities";
+import { UserData } from "../../components/UserColumn/UserData";
+import { LogOut } from "../../components/UserColumn/LogOut";
 import "./EnrollScreen.scss";
 
 function EnrollScreen() {
@@ -13,11 +15,18 @@ function EnrollScreen() {
         <Schedule />
       </div>
       <div className="user-data-wrapper">
-        <UserActivities />
         <Logo />
+        <UserData
+          name={"Thorin"}
+          surname={"Dębowa Tarcza"}
+          albumNumber={123456}
+        />
+        <UserActivities />
+        <LogOut />
       </div>
     </div>
   );
 }
 
 export default EnrollScreen;
+export {};

@@ -9,16 +9,9 @@ import {
   EnrollContextProvider,
 } from "../src/context/EnrollmentContext";
 
-const sampleEnrollmentContext: EnrollmentContextInterface = {
-  activities: new Array(),
-  setActivities: (activity: Activity) => {
-    return null;
-  },
-};
-
 ReactDOM.render(
   <React.StrictMode>
-    <EnrollContextProvider value={sampleEnrollmentContext}>
+    <EnrollContextProvider>
       <EnrollScreen />
     </EnrollContextProvider>
   </React.StrictMode>,

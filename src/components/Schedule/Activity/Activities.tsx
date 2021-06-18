@@ -19,21 +19,23 @@ import { MouseEvent, useContext } from "react";
 import React from "react";
 
 import {
-  EnrollContextConsumer,
+  EnrollContextProvider,
   EnrollContext,
 } from "../../../context/EnrollmentContext";
 
 export function Activities(props: ActivitiesProps) {
+  const state = useContext(EnrollContext);
+
   const handleOnClickEnroll = (event: React.MouseEvent<HTMLElement>): void => {
     const id: number = parseInt(event.currentTarget.id);
     let activity: Activity = props.dayData[id];
+    if (state.setActivities) state.setActivities(activity);
   };
 
   const { dayData } = props;
   return (
     <div className="activities">
       {dayData.map((activity, index) => {
-        console.log(activity.name, activity.neighbours);
         const boxHeight: number = countActivityHeight(
           activity.start,
           activity.end

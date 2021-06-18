@@ -51,8 +51,17 @@ export function Schedule() {
   const handleDayClick = (event: React.MouseEvent<HTMLButtonElement>): void => {
     const day = event.currentTarget.value as DayName;
     setCurrentDay(day);
+    console.log(daysToIndex[day]);
     // API call
     const data = GetSchedule();
+  };
+
+  let daysToIndex: { [key: string]: number } = {
+    Poniedziałek: 0,
+    Wtorek: 1,
+    Środa: 2,
+    Czwartek: 3,
+    Piątek: 4,
   };
 
   return (
@@ -79,7 +88,9 @@ export function Schedule() {
             );
           })}
 
-          <Activities dayData={GetSchedule()[0].activities} />
+          <Activities
+            dayData={GetSchedule()[daysToIndex[currentDay]].activities}
+          />
         </div>
       </div>
     </div>
