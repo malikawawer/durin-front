@@ -1,7 +1,10 @@
 import React from "react";
-export const LogOut = () => {
+type LogOutProps = {
+  onLogOut: () => void;
+};
+export const LogOut = (props: LogOutProps) => {
   return (
-    <button className="logout" value={"Wyloguj się"}>
+    <button className="logout" value={"Wyloguj się"} onClick={props.onLogOut}>
       {"Wyloguj się"}
     </button>
   );

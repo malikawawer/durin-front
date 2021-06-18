@@ -7,7 +7,11 @@ import { UserData } from "../../components/UserColumn/UserData";
 import { LogOut } from "../../components/UserColumn/LogOut";
 import "./EnrollScreen.scss";
 
-function EnrollScreen() {
+type EnrollScreenProps = {
+  handleLogOut: () => void;
+};
+
+function EnrollScreen(props: EnrollScreenProps) {
   return (
     <div className="screen-wrapper">
       <div className="main">
@@ -22,7 +26,7 @@ function EnrollScreen() {
           albumNumber={123456}
         />
         <UserActivities />
-        <LogOut />
+        <LogOut onLogOut={props.handleLogOut} />
       </div>
     </div>
   );

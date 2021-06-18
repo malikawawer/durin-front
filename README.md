@@ -1,3 +1,7 @@
+# Durin jest aplikacją służącą do prowadzenia zapisów na zajęcia uniwersyteckie dla studentów
+
+![icons preview](Interface-1.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

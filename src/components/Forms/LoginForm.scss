@@ -1,0 +1,41 @@
+.login-form {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  & p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  & input {
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    padding: 8px 20px;
+    margin-top: 4px;
+    background: none;
+  }
+
+  & .submit-button {
+    color: white;
+    background-color: blueviolet;
+    border: 12px;
+    width: 70%;
+    border-radius: 40px;
+    padding: 15px;
+  }
+
+  .submit-button:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+  }
+}
+
+.resize-logo {
+  margin-top: 20vh;
+  .logo-wrapper {
+    height: 5rem;
+  }
+}
